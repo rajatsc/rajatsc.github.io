@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="my personal site">
+		<meta name="author" content="Rajat Chand">
+		<meta name="theme-color" content="#ffffff">
+		<title>Home | Rajat Chand</title>
+		
+		<!--Bootsrap css-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<!--Custom CSS -->
+		<link type="text/css" href="css/main.css" rel="stylesheet">
+
+		<!--Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+		<!--Icons-->
+		<script src="https://kit.fontawesome.com/c002d045c2.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+		<section id="header">
+		<div class="container py-md-4">
+			<div id="content">
+				<div>
+					<h1 id="hello">Hi, I'm Rajat Chand!</h1>
+					<nav>
+						<i class="fab fa-github-square"></i>
+						<a id="social" href="https://github.com/rajatsc">Github</a> |
+						<i class="fab fa-linkedin"></i>
+						<a id="social" href="https://linkedin.com/in/rajatsc">LinkedIn</a> |
+						<span style="font-size: 85%;"><i class="fa fa-envelope" aria-hidden="true" title="Email"></i></span>
+						<a id="social" href="mailto:rajatc@uw.edu">Email</a>
+					</nav>
+				</div>
+				<section>
+					<p> I am currently a Masters student at the <a href="" id=intro-emphasis>University of Washington</a>. I completed my undergraduate studies with major in Mechanical Engineering and minor in Computer Science from <a href="https://www.iitgn.ac.in" id=intro-emphasis>Indian Institute of Technology Gandhinagar</a>. I like building things. Besides the daily grind I enjoy reading world history and geopolitics and playing soccer. </p>
+				</section>
+			</div>
+		</div>
+		</section>
+
+		<div class="container project-nav mt-2">
+			<div class="row justify-content-center">
+				<div class="col">
+					<ul class="list-inline" id="project-filters">
+
+  							<li class="list-inline-item active project-nav-item mx-3" data-filter="*" id="filters">all</li>
+  							<li class="list-inline-item project-nav-item mx-3" data-filter=".ml" id="filters" data-toggle="tooltip" data-placement="top" title="machine learning">ml</li>
+  							<li class="list-inline-item project-nav-item mx-3" data-filter=".cv" id="filters" data-toggle="tooltip" data-placement="top" title="computer vision">cv</li>	
+  							<li class="list-inline-item project-nav-item mx-3" data-filter=".web" id="filters">web</li>
+  							<li class="list-inline-item project-nav-item mx-3" data-filter=".games" id="filters">games</li>
+  							<li class="list-inline-item project-nav-item mx-3" data-filter=".software" id="filters">software</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container project-cards">
+			<div class="row justify-content-center grid">
+
+				<div class="col-lg-4 col-md-6 mb-3 grid-element web">
+					<div class="card project-card h-100" id="vwatch-project">
+						<img class="card-img-top" src="./img/project-tiles/vwatch-tile.png">
+        				<div class="card-img-overlay text-white d-flex flex-column justify-content-center" id="project-hover">
+          					<p class="card-text">vwatch allows you to watch videos in sync with your friends.</p>
+      
+          					<div class="container-fluid">
+          						<div class="row">
+          							<div class="col-2">
+		  								<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="Javascript">
+		      							<img src="./img/brand-logos/icons8-javascript.svg" class="" height="22">
+		      							</button>
+      								</div>
+      								
+      								<div class="col-2">
+		      							<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="Node.js">
+		      							<img src="./img/brand-logos/nodejs.svg" class="" height="22">	
+		      							</button>
+		      						</div>
+
+		      						<div class="col-2">
+		      							<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="socket.io">
+		      							<img src="./img/brand-logos/socketio-icon.svg" class="" height="20">	
+		      							</button>
+		      						</div>
+
+
+		      						<div class="col-2">
+		      							<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="mongoDB">
+		      							<img src="./img/brand-logos/mongodb-icon.svg" class="" height="20">	
+		      							</button>
+		      						</div>
+
+      							</div>
+      						</div>
+
+      					</div>
+						<div class="card-body my-0 py-0">
+							<strong>vwatch</strong>
+						</div>
+					</div>
+			</div>
+
+
+
+				<div class="col-lg-4 col-md-6 mb-3 grid-element ml">
+					<div class="card project-card h-100" id="DeepC-project">
+						<img class="card-img-top" src="./img/project-tiles/DeepC-tile.png">
+
+						<div class="card-img-overlay text-white d-flex flex-column justify-content-center" id="project-hover">
+          					<p class="card-text">DeepC is a lightweight neural network library written in C</p>
+          				
+          					<div class="container-fluid">
+          						<div class="row">
+          							<div class="col-2">
+		  								<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="C">
+		      							<img src="./img/brand-logos/icons8-c-programming.svg" class="" height="22">
+		      							</button>
+
+      								</div>
+
+      								<div class="col-2">
+		  								<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="python">
+		      							<img src="./img/brand-logos/icons8-python.svg" class="" height="22">
+		      							</button>
+      								</div>
+
+      							</div>
+      						</div> 
+
+
+          				</div>
+
+						<div class="card-body my-0 py-0">
+							<strong>DeepC</strong>
+						</div>
+					</div>	
+				</div>
+
+								<div class="col-lg-4 col-md-6 mb-3 grid-element cv software ml">
+					<div class="card project-card h-100" id="racecar-project">
+						<img class="card-img-top" src="./img/project-tiles/racecar-tile.png">
+
+						<div class="card-img-overlay text-white d-flex flex-column justify-content-center" id="project-hover">
+          					<p class="card-text">State estimation, control, and planning software for RC car</p>
+          				
+          					<div class="container-fluid">
+          						<div class="row">
+          							<div class="col-2">
+		  								<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="python">
+		      							<img src="./img/brand-logos/icons8-python.svg" class="" height="22">
+		      							</button>
+      								</div>
+
+      								<div class="col-2">
+		  								<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="ROS">
+		      							<img src="./img/brand-logos/ros.svg" class="" height="22">
+		      							</button>
+      								</div>
+
+      								<div class="col-2">
+		  								<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="OpenCV">
+		      							<img src="./img/brand-logos/opencv-icon.svg" class="" height="22">
+		      							</button>
+      								</div>
+
+
+      								<div class="col-2">
+		  								<button class="btn btn-default btn-circle d-flex justify-content-center align-items-center mx-2" data-toggle="tooltip" data-placement="top" title="PyTorch">
+		      							<img src="./img/brand-logos/pytorch-icon.svg" class="" height="22">
+		      							</button>
+      								</div>
+
+      							</div>
+      						</div> 
+
+
+          				</div>
+
+						<div class="card-body my-0 py-0">
+							<strong>Autonomous RC car</strong>
+						</div>
+					</div>	
+				</div>
+
+
+
+			</div>	
+
+			</div>	
+		</div>
+
+		<div class="footer">
+				<a href="https://github.com/rajatsc"><i class="fab fa-github-square mx-3" title="GitHub"></i></a>
+				<a href="https://linkedin.com/in/rajatsc"><i class="fab fa-linkedin mx-3" title="LinkedIn"></i></a>
+				<a href="mailto:rajatc@uw.edu"><i class="fa fa-envelope mx-3" aria-hidden="true" title="Email"></i></a>
+		</div>
+		
+
+		<!---Bootstrap js ---->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!--- Isotope ------->
+		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+
+		<!--custom JS--->
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
