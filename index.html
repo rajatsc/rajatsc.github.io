@@ -1,0 +1,13 @@
+---
+layout: default
+title: Rajat Shiv Chand
+---
+
+<div id="home">
+  <h1>Writing</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date: "%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
